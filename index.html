@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kul nettside</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        font-family: sans-serif;
+      }
+
+      .container {
+        display: flex;
+        height: 100vh;
+        overflow: hidden;
+      }
+
+      #left {
+        width: 30%;
+        background-color: lightgray;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 20px;
+        clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+      }
+
+      #right {
+        width: 70%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+      }
+
+      h1,
+      h2 {
+        margin: 0;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="left">
+      <h1>Avis</h1>
+    </div>
+    <div id="right">
+      <h2>Benny er gay</h2>
+    </div>
+  </body>
+</html>
